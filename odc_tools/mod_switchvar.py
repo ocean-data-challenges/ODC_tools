@@ -19,8 +19,8 @@ lonlat2dxdy(lon, lat)
 
 import numpy as np 
 import xarray as xr
-from src.mod_compare import *
-from src.mod_interp import *
+from odc_tools.mod_compare import *
+from odc_tools.mod_interp import *
 
   
 

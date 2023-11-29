@@ -17,10 +17,9 @@ import scipy.signal as sps
 import scipy.linalg as spl
 import scipy.signal as signal
 sys.path.append('..')
-import src.mod_powerspec as ps 
-import src.mod_xscale as xfft
+import odc_tools.mod_powerspec as ps 
+import odc_tools.mod_xscale as xfft
 
-#from src.mod_interp import *
 
 import warnings
 warnings.filterwarnings("ignore")

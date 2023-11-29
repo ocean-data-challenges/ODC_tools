@@ -6,14 +6,12 @@ import pyinterp
 import xarray as xr
 from netCDF4 import Dataset
 from scipy import stats
-from src.mod_filter import *
+from odc_tools.mod_filter import *
 
 logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s',
                     level=logging.INFO,
                     datefmt='%Y-%m-%d %H:%M:%S')
 
-#from src.mod_filter import *
-#from src.mod_interp import *
 
 
 def bin_data(ds, output_file, lon_out=np.arange(0, 360, 1), lat_out=np.arange(-90, 90, 1), freq_out='1D', method_name=' '):
