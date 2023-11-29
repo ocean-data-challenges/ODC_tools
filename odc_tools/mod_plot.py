@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 from cartopy.mpl.gridliner import LONGITUDE_FORMATTER, LATITUDE_FORMATTER
 import cartopy.feature as cfeature 
-from src.mod_compare import *
+from odc_tools.mod_compare import *
  
 
 def plot_stat_score_map(filename):
