@@ -16,7 +16,7 @@ setup(
     # Needed to actually package something
     packages=['odc_tools'],
     # Needed for dependencies
-    install_requires=required,
+    install_requires=requirements,
     # *strongly* suggested for sharing
     version='0.1',
     # The license can be anything you like
