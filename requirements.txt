@@ -9,7 +9,7 @@ pyinterp
 cmocean
 holoviews
 geoviews
-cartopy
+Cartopy
 tabulate
 datashader
 netcdf4
