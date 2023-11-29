@@ -2,10 +2,14 @@ from setuptools import setup
 import os
 
 
-requirements = []
-with open('requirements.txt', 'r') as f:
-    lines = [x.strip() for x in f if 0 < len(x.strip())]
-    requirements = [x for x in lines if x[0].isalpha()]
+requirements = ['numpy']
+#with open('requirements.txt', 'r') as f:
+#    lines = [x.strip() for x in f if 0 < len(x.strip())]
+#    requirements = [x for x in lines if x[0].isalpha()]
+
+os.system('conda env create --file=odc_env.yml')
+os.system('source activate odc_env')
+os.system("ipython kernel install --name 'odc_env' --user")
 
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
