@@ -1,8 +1,8 @@
 # Use official repository
 -i https://pypi.python.org/simple/
 
-python=3.10
-Numpy=1.21.*
+Python
+Numpy
 Scipy
 hvplot
 netCDF4
