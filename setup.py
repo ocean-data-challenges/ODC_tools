@@ -18,3 +18,9 @@ setup(
     # We will also need a readme eventually (there will be a warning)
     # long_description=open('README.txt').read(),
 )
+
+
+requirements = []
+with open('requirements.txt', 'r') as f:
+    lines = [x.strip() for x in f if 0 < len(x.strip())]
+    requirements = [x for x in lines if x[0].isalpha()]

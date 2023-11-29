@@ -1,0 +1,17 @@
+# Use official repository
+-i https://pypi.python.org/simple/
+
+python=3.10
+Numpy=1.21.*
+Scipy
+hvplot
+netCDF4
+pyinterp
+cmocean
+holoviews
+geoviews
+cartopy=0.21
+tabulate
+datashader
+netcdf4
+mycolorpy
