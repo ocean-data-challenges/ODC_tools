@@ -30,5 +30,5 @@ setup(
     # We will also need a readme eventually (there will be a warning)
     # long_description=open('README.txt').read(),
 
-    install_requires=reqs
+    #install_requires=reqs
 )
