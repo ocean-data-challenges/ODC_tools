@@ -1,11 +1,8 @@
 from setuptools import setup
+import os
 
-from pip.req import parse_requirements
-install_reqs = parse_requirements('requirements.txt', session='hack')
-
-# reqs is a list of requirement
-# e.g. ['django==1.5.1', 'mezzanine==1.4.6']
-reqs = [str(ir.req) for ir in install_reqs]
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
 
 #requirements = []
 #with open('requirements.txt', 'r') as f:
@@ -30,5 +27,5 @@ setup(
     # We will also need a readme eventually (there will be a warning)
     # long_description=open('README.txt').read(),
 
-    #install_requires=reqs
+    install_requires=required,
 )
