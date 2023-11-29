@@ -1,13 +1,11 @@
 from setuptools import setup
 import os
 
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
 
-#requirements = []
-#with open('requirements.txt', 'r') as f:
-#    lines = [x.strip() for x in f if 0 < len(x.strip())]
-#    requirements = [x for x in lines if x[0].isalpha()]
+requirements = []
+with open('requirements.txt', 'r') as f:
+    lines = [x.strip() for x in f if 0 < len(x.strip())]
+    requirements = [x for x in lines if x[0].isalpha()]
 
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
