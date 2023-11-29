@@ -18,7 +18,7 @@ setup(
     # Needed to actually package something
     packages=['odc_tools'],
     # Needed for dependencies
-    install_requires=['numpy'],
+    install_requires=required,
     # *strongly* suggested for sharing
     version='0.1',
     # The license can be anything you like
@@ -27,5 +27,4 @@ setup(
     # We will also need a readme eventually (there will be a warning)
     # long_description=open('README.txt').read(),
 
-    install_requires=required,
 )
