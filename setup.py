@@ -8,8 +8,6 @@ requirements = ['numpy']
 #    requirements = [x for x in lines if x[0].isalpha()]
 
 os.system('conda env create --file=odc_env.yml')
-os.system('source activate odc_env')
-os.system("ipython kernel install --name 'odc_env' --user")
 
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
