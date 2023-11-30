@@ -1,5 +1,7 @@
 # ODC tools
 
+![odc_tools_banner](figures/odc_tools_banner.png)
+
 ## Available modules
 
 - mod_compare 
